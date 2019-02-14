@@ -8,6 +8,7 @@ import java.io.InputStreamReader;
 public class OtrTestFirst {
     public static void main(String[] args) {
         try {
+            System.out.println("Программа для вывода диапозона адресов");
             IpAddress ipAddress1 = readIpAddress("Введите первый ip адрес:");
             IpAddress ipAddress2 = readIpAddress("Введите второй ip адрес:");
             System.out.println(IpAddress.getAllIpAddresesInRangeAsString(ipAddress1, ipAddress2));
